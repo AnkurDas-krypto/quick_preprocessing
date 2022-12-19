@@ -11,10 +11,10 @@ from nltk.stem import WordNetLemmatizer
 @ensure_annotations
 def text_preprocessing(main_list: list):
     try:
-        corpus = []
         if main_list is None:
             raise InvalidListException("list cannot be null")
         else:
+            corpus = []
             lemmatizer = WordNetLemmatizer()
             for i in range(0, len(main_list)):
                 review = re.sub('[^a-zA-Z]', ' ', main_list[i])
