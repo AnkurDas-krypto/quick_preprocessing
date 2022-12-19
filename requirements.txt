@@ -1,8 +1,6 @@
-notebook==6.4.12
 ensure==1.0.2
 py~=1.11.0
 jupyter~=1.0.0
-pip~=22.2.2
 toml~=0.10.2
 pytest~=7.1.2
 flake8~=4.0.1
