@@ -1,14 +1,9 @@
 from ensure import ensure_annotations
 from PYPIPackage.manual_exception import InvalidListException
 from PYPIPackage.logger import logger
-import numpy as np
-import pandas as pd
 import re
-from nltk.corpus import stopwords  # remove stopwords
-from nltk.stem.porter import PorterStemmer  # stemming
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
-
 ps = PorterStemmer()
 from nltk.stem import WordNetLemmatizer
 
@@ -23,12 +18,9 @@ def text_preprocessing(main_list: list):
             lemmatizer = WordNetLemmatizer()
             for i in range(0, len(main_list)):
                 review = re.sub('[^a-zA-Z]', ' ', main_list[i])
-                #logger.info(f"removing punctuations: {review}")
+                logger.info(f"removing punctuations: {review}")
                 review = review.lower()
-                #logger.info(f"lowering the sentence: {review}")
-               # review = review.split()
-                #review = [lemmatizer.lemmatize(word) for word in review if word not in stopwords.words('english')]
-                #logger.info(f"lemmatizing each words: {review}")
+                logger.info(f"lowering the sentence: {review}")
                 review = ' '.join([lemmatizer.lemmatize(word) for word in review.split() if word not in stopwords.words('english')])
                 corpus.append(review)
                 logger.info(f"successfully preprocessed")
