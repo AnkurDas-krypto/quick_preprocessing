@@ -5,9 +5,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.1" # update as per your need
 
-REPO_NAME = "PYPIPackage"
+REPO_NAME = "quick_preprocessing"
 AUTHOR_USER_NAME = "AnkurDas-krypto"
-SRC_REPO = "PYPIPackage"
+SRC_REPO = "quick_preprocessing"
 AUTHOR_EMAIL = "ankurdas8017@gmail.com"
 
 setuptools.setup(
