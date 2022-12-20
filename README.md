@@ -1,3 +1,2 @@
 ## PYPI python package template
-# -STEP 1: run on terminal python template.py
-# -STEP 2: run bash init_setup.sh 
+    This package is meant to quickly preprocess text data to save developers time. This package includes lemmatization, stemming, punctuation removal, stopwords removal and many more.
