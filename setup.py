@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-__version__ = "0.0.4" # update as per your need
+__version__ = "0.0.3" # update as per your need
 
 REPO_NAME = "quick_preprocessing"
 AUTHOR_USER_NAME = "AnkurDas-krypto"
