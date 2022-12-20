@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PYPIPackage.iml" filepath="$PROJECT_DIR$/.idea/PYPIPackage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/quick_preprocessing.iml" filepath="$PROJECT_DIR$/.idea/quick_preprocessing.iml" />
     </modules>
   </component>
 </project>

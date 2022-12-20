@@ -16,4 +16,4 @@ logging.basicConfig (
     ]
 )
 
-logger = logging.getLogger("PYPIPackage")
+logger = logging.getLogger("quick_preprocessing")

@@ -1,6 +1,6 @@
 from ensure import ensure_annotations
-from PYPIPackage.manual_exception import InvalidListException
-from PYPIPackage.logger import logger
+from quick_preprocessing.manual_exception import InvalidListException
+from quick_preprocessing.logger import logger
 import re
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer

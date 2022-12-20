@@ -1,1 +1,1 @@
-from PYPIPackage.preprocessing import text_preprocessing
+from quick_preprocessing.preprocessing import text_preprocessing
