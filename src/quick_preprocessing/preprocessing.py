@@ -39,7 +39,7 @@ def stemming_preprocessing(main_list: list):
             for i in range(0, len(main_list)):
                 review = re.sub('[^a-zA-Z]', ' ', main_list[i])
                 review = review.lower()
-                review = ' '.join([ps.stem(word) for word in review if word not in stopwords.words('english')])
+                review = ' '.join([ps.stem(word) for word in review.split() if word not in stopwords.words('english')])
                 corpus.append(review)
         return corpus
     except Exception as e:
