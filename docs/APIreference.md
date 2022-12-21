@@ -25,5 +25,10 @@ from quick_preprocessing import lemmatize_preprocessing
 from quick_preprocessing import stemming_preprocessing
 ```
 
+##spelling correction
+```python
+from quick_preprocessing import spell_corrector
+```
+
 ##NOTE 
 Input has to be in list

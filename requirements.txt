@@ -7,3 +7,6 @@ flake8~=5.0.4
 numpy~=1.21.5
 mkdocs-material~=8.5.11
 nltk~=3.7
+symspellpy==6.5.2
+
+

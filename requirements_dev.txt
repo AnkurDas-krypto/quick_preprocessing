@@ -7,4 +7,5 @@ black==22.8.0
 flake8==5.0.4
 mypy==0.971
 mkdocs-material==8.5.11
+symspellpy==6.5.2
 -e .
