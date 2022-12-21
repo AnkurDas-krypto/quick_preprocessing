@@ -69,5 +69,6 @@ def spell_corrector(input_term):
     splitter = predicted_sentence[:-6]
     return splitter
 
-# output = spell_corrector(input_term='The yougn boy finaly understod the diffrence betwen paralell and perpendcular.')
-# print(output)
+#output = spell_corrector(input_term='The yougn boy finaly understod the diffrence betwen paralell and perpendcular.')
+output = spell_corrector("whats your name, mah nam is hola amigos, perpandicular is nat same")
+print(output)
